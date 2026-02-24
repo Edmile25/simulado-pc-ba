@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simulado PC Bahia</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado PC/BA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Simulado PC Bahia</h1>
+    <h1>Simulado PC/BA</h1>
 
-    <div class="controls">
-      <div>
-        <label for="filtro">Filtrar por disciplina:</label>
-        <select id="filtro">
-          <option value="todas">Todas</option>
+    <div>
+        <label for="disciplina">Filtrar por disciplina:</label>
+        <select id="disciplina">
+            <option value="todas">Todas</option>
+            <option value="Direito Penal">Direito Penal</option>
+            <option value="Direito Processual Penal">Direito Processual Penal</option>
+            <option value="Legislação Especial (PC/BA)">Legislação Especial (PC/BA)</option>
+            <option value="Constituição Federal">Constituição Federal</option>
+            <option value="Direitos Humanos">Direitos Humanos</option>
+            <option value="Língua Portuguesa">Língua Portuguesa</option>
+            <option value="Informática">Informática</option>
+            <option value="Raciocínio Lógico">Raciocínio Lógico</option>
+            <option value="Estatuto da Criança e do Adolescente">Estatuto da Criança e do Adolescente</option>
+            <option value="Código de Trânsito Brasileiro">Código de Trânsito Brasileiro</option>
+            <option value="Noções de Investigação Policial">Noções de Investigação Policial</option>
+            <option value="Juizados Especiais Criminais">Juizados Especiais Criminais</option>
+            <option value="Estatuto do Desarmamento">Estatuto do Desarmamento</option>
+            <option value="Ética no Serviço Público">Ética no Serviço Público</option>
+            <option value="Medicina Legal">Medicina Legal</option>
+            <option value="Noções de Contabilidade">Noções de Contabilidade</option>
         </select>
-        <button onclick="filtrar()">Filtrar</button>
-      </div>
-      <div>
-        <button onclick="sortear()">🎲 Sortear questões aleatórias</button>
-      </div>
     </div>
 
-    <div id="simulado" class="simulado"></div>
-    <button class="btn-finalizar" onclick="finalizar()">Finalizar</button>
-    <div id="resultado" class="resultado"></div>
-    <div id="pontuacao" class="pontuacao"></div>
+    <button id="sortear">🎲 Sortear Questão</button>
 
-    <div class="rodape">Desenvolvido por Edmile Lopes</div>
-  </div>
+    <div id="questao-container"></div>
 
-  <script src="script.js"></script>
+    <div id="resultado"></div>
+
+    <footer>
+        desenvolvido por Edmile Lopes
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
