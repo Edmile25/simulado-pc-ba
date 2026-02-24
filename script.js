@@ -1,6 +1,6 @@
 let questoes = [];
 let questoesAtuais = [];
-let numQuestoesSorteadas = 5; // Quantas questões mostrar ao sortear
+let numQuestoesSorteadas = 5;
 let respostasUsuario = [];
 
 fetch('questoes.json')
@@ -12,7 +12,6 @@ fetch('questoes.json')
     mostrarQuestoes();
   });
 
-// Popula o filtro de disciplinas
 function popularFiltro() {
   const filtro = document.getElementById('filtro');
   let disciplinas = [...new Set(questoes.map(q => q.disciplina))];
@@ -24,7 +23,6 @@ function popularFiltro() {
   });
 }
 
-// Mostrar questões na tela
 function mostrarQuestoes() {
   const container = document.getElementById('simulado');
   container.innerHTML = '';
@@ -40,7 +38,6 @@ function mostrarQuestoes() {
   });
 }
 
-// Filtrar por disciplina
 function filtrar() {
   const filtro = document.getElementById('filtro').value;
   if (filtro === 'todas') {
@@ -51,7 +48,6 @@ function filtrar() {
   mostrarQuestoes();
 }
 
-// Sortear questões aleatórias
 function sortear() {
   let qtd = Math.min(numQuestoesSorteadas, questoes.length);
   questoesAtuais = [];
@@ -64,7 +60,6 @@ function sortear() {
   mostrarQuestoes();
 }
 
-// Finalizar e mostrar resultados + pontuação
 function finalizar() {
   let resultado = document.getElementById('resultado');
   let pontuacao = 0;
