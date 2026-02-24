@@ -2,28 +2,29 @@ let questoes = [];
 let pontuacao = 0;
 
 // Puxar JSON
-fetch('questoes.json')
+fetch('questoes_corrigidas.json') // use o arquivo novo
   .then(response => response.json())
   .then(data => {
-      questoes = data.questoes;
+      questoes = data;
   });
 
 document.getElementById('sortear').addEventListener('click', () => {
     const disciplina = document.getElementById('disciplina').value;
 
-    // Filtra por disciplina
     let listaFiltrada = questoes;
+
     if(disciplina !== 'todas') {
-        listaFiltrada = questoes.filter(q => q.disciplina === disciplina);
+        listaFiltrada = questoes.filter(q =>
+            q.disciplina.trim() === disciplina.trim()
+        );
     }
 
-    // Sorteia aleatoriamente
     const q = listaFiltrada[Math.floor(Math.random() * listaFiltrada.length)];
 
-    // Mostra a questão
     let html = `<h2>${q.disciplina}</h2>`;
     html += `<p>${q.questao}</p>`;
-    q.alternativas.forEach((alt, i) => {
+
+    q.alternativas.forEach((alt) => {
         html += `<button onclick="responder('${alt}', '${q.resposta}', '${q.comentario}')">${alt}</button><br>`;
     });
 
