@@ -1,21 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulado PC Bahia</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>Simulado PC Bahia</h1>
+  <div class="container">
+    <h1>Simulado PC Bahia</h1>
 
-  <!-- Filtro por disciplina -->
-  <label for="filtro">Filtrar por disciplina:</label>
-  <select id="filtro">
-    <option value="todas">Todas</option>
-  </select>
-  <button onclick="filtrar()">Filtrar</button>
+    <div class="controls">
+      <div>
+        <label for="filtro">Filtrar por disciplina:</label>
+        <select id="filtro">
+          <option value="todas">Todas</option>
+        </select>
+        <button onclick="filtrar()">Filtrar</button>
+      </div>
+      <div>
+        <button onclick="sortear()">🎲 Sortear questões aleatórias</button>
+      </div>
+    </div>
 
-  <!-- Sorteio de questões -->
-  <button onclick="sortear()">🎲 Sortear questões aleatórias</button>
+    <div id="simulado" class="simulado"></div>
+    <button class="btn-finalizar" onclick="finalizar()">Finalizar</button>
+    <div id="resultado" class="resultado"></div>
+    <div id="pontuacao" class="pontuacao"></div>
 
-  <div id="simulado"></div>
-  <button onclick="finalizar()">Finalizar</button>
-  <div id="resultado"></div>
-  <div id="pontuacao"></div>
-  <div id="rodape">Desenvolvido por Edmile Lopes</div>
+    <div class="rodape">Desenvolvido por Edmile Lopes</div>
+  </div>
 
   <script src="script.js"></script>
 </body>
+</html>
