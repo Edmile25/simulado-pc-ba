@@ -1,52 +1,37 @@
 [
   {
-    "id": 1,
     "disciplina": "Direito Penal",
-    "questao": "Qual é o princípio fundamental do Direito Penal que impede que ninguém seja punido sem lei prévia?",
-    "alternativas": ["Legalidade", "Impessoalidade", "Moralidade", "Publicidade"],
-    "resposta": "Legalidade",
-    "comentario": "O princípio da legalidade está previsto no art. 5º, XXXIX, da Constituição Federal, garantindo que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.",
-    "banca": "FCC",
-    "ano": 2026
+    "questao": "Qual a definição de crime doloso?",
+    "alternativas": ["Quando há intenção de cometer o crime", "Quando não há intenção", "Crime culposo", "Crime premeditado"],
+    "resposta": "Quando há intenção de cometer o crime",
+    "comentario": "Doloso significa que o agente tinha intenção de praticar o crime."
   },
   {
-    "id": 2,
     "disciplina": "Língua Portuguesa",
-    "questao": "Assinale a alternativa que apresenta corretamente o plural da palavra 'cidadão'.",
-    "alternativas": ["Cidadãos", "Cidadãoses", "Cidadãoses", "Cidadãons"],
-    "resposta": "Cidadãos",
-    "comentario": "O plural de 'cidadão' é 'cidadãos', seguindo a regra de palavras terminadas em -ão que formam o plural em -ãos, -ões ou -ães, dependendo do caso.",
-    "banca": "FCC",
-    "ano": 2026
+    "questao": "Assinale a alternativa correta: 'Houveram problemas na reunião.'",
+    "alternativas": ["Correto", "Incorreto"],
+    "resposta": "Incorreto",
+    "comentario": "O verbo haver no sentido de existir é impessoal, portanto deve ser 'Houve problemas'."
   },
   {
-    "id": 3,
     "disciplina": "Informática",
-    "questao": "Em qual camada do modelo OSI ocorre a segmentação de dados?",
-    "alternativas": ["Transporte", "Aplicação", "Rede", "Enlace"],
-    "resposta": "Transporte",
-    "comentario": "A camada de transporte (camada 4) do modelo OSI é responsável pela segmentação de dados, garantindo a entrega confiável entre sistemas finais.",
-    "banca": "FCC",
-    "ano": 2026
+    "questao": "Qual é a função de um firewall?",
+    "alternativas": ["Bloquear ataques de rede", "Armazenar arquivos", "Formatar HD", "Gerenciar senhas"],
+    "resposta": "Bloquear ataques de rede",
+    "comentario": "Firewall protege a rede de acessos não autorizados."
   },
   {
-    "id": 4,
-    "disciplina": "Estatuto da Criança e do Adolescente",
-    "questao": "Segundo o ECA, qual é a prioridade absoluta de crianças e adolescentes?",
-    "alternativas": ["Proteção integral", "Educação básica", "Direito ao lazer", "Saúde preventiva"],
-    "resposta": "Proteção integral",
-    "comentario": "O ECA prevê a proteção integral como prioridade absoluta, garantindo direitos sociais, civis e políticos, conforme art. 4º e 227 da Constituição Federal.",
-    "banca": "FCC",
-    "ano": 2026
+    "disciplina": "Raciocínio Lógico",
+    "questao": "Se todos os A são B e todos os B são C, então:",
+    "alternativas": ["Todos os A são C", "Todos os C são A", "Nenhum A é C", "Todos os B são A"],
+    "resposta": "Todos os A são C",
+    "comentario": "É a transitividade da lógica: A → B → C, então A → C."
   },
   {
-    "id": 5,
-    "disciplina": "Noções de Contabilidade",
-    "questao": "Qual demonstração contábil apresenta a situação financeira de uma empresa em um determinado momento?",
-    "alternativas": ["Balanço Patrimonial", "Demonstração de Resultados", "Fluxo de Caixa", "DRE Ajustada"],
-    "resposta": "Balanço Patrimonial",
-    "comentario": "O Balanço Patrimonial mostra ativos, passivos e patrimônio líquido em uma data específica, permitindo análise da situação financeira da empresa.",
-    "banca": "FCC",
-    "ano": 2026
+    "disciplina": "Código de Trânsito Brasileiro",
+    "questao": "Qual é a penalidade para dirigir sem habilitação?",
+    "alternativas": ["Multa e apreensão do veículo", "Advertência", "Apenas multa", "Nada"],
+    "resposta": "Multa e apreensão do veículo",
+    "comentario": "Dirigir sem CNH é infração gravíssima: multa + apreensão do veículo."
   }
 ]
