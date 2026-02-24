@@ -1,37 +1,282 @@
 [
   {
     "disciplina": "Direito Penal",
-    "questao": "Qual a definição de crime doloso?",
-    "alternativas": ["Quando há intenção de cometer o crime", "Quando não há intenção", "Crime culposo", "Crime premeditado"],
-    "resposta": "Quando há intenção de cometer o crime",
-    "comentario": "Doloso significa que o agente tinha intenção de praticar o crime."
+    "questao": "Qual é o princípio basilar do Direito Penal que proíbe a punição sem lei anterior?",
+    "alternativas": ["Legalidade", "Impessoalidade", "Publicidade", "Publicidade"],
+    "resposta": "Legalidade",
+    "comentario": "O princípio da legalidade penal está no art. 5º, XXXIX, da CF: ninguém pode ser punido sem lei anterior que o defina como crime."
+  },
+  {
+    "disciplina": "Direito Penal",
+    "questao": "O que caracteriza crime doloso?",
+    "alternativas": ["Quando o agente possui intenção de praticar o crime", "Quando o agente erra sobre elemento do tipo", "Crime sem vítima", "Crime culposo"],
+    "resposta": "Quando o agente possui intenção de praticar o crime",
+    "comentario": "No crime doloso, o agente atua com vontade e consciência de praticar o fato criminoso."
+  },
+  {
+    "disciplina": "Direito Processual Penal",
+    "questao": "A prisão em flagrante deve ser comunicada ao juiz em até quantas horas?",
+    "alternativas": ["24 horas", "48 horas", "72 horas", "12 horas"],
+    "resposta": "24 horas",
+    "comentario": "A prisão em flagrante deve ser comunicada ao juiz no prazo de 24 horas, sob pena de relaxamento."
+  },
+  {
+    "disciplina": "Legislação Especial (PC/BA)",
+    "questao": "A Polícia Civil da Bahia é responsável por:",
+    "alternativas": ["Investigação de crimes", "Policiamento ostensivo", "Controle de fronteiras", "Administração penitenciária"],
+    "resposta": "Investigação de crimes",
+    "comentario": "A Polícia Civil é responsável pela investigação criminal, enquanto o policiamento ostensivo é função da PM."
+  },
+  {
+    "disciplina": "Constituição Federal",
+    "questao": "Qual artigo trata dos direitos e garantias fundamentais?",
+    "alternativas": ["Art. 5º", "Art. 37", "Art. 1º", "Art. 7º"],
+    "resposta": "Art. 5º",
+    "comentario": "O artigo 5º da Constituição Federal lista os direitos e garantias fundamentais."
+  },
+  {
+    "disciplina": "Direitos Humanos",
+    "questao": "Qual documento é referência mundial na proteção dos direitos humanos?",
+    "alternativas": ["Declaração Universal dos Direitos Humanos", "Código Penal", "Constituição Federal", "Estatuto da Criança e do Adolescente"],
+    "resposta": "Declaração Universal dos Direitos Humanos",
+    "comentario": "A Declaração Universal dos Direitos Humanos (1948) estabelece padrões internacionais de proteção aos direitos humanos."
   },
   {
     "disciplina": "Língua Portuguesa",
-    "questao": "Assinale a alternativa correta: 'Houveram problemas na reunião.'",
-    "alternativas": ["Correto", "Incorreto"],
-    "resposta": "Incorreto",
-    "comentario": "O verbo haver no sentido de existir é impessoal, portanto deve ser 'Houve problemas'."
+    "questao": "Assinale a frase que apresenta concordância verbal correta:",
+    "alternativas": ["Os alunos estudou bastante", "Os alunos estudaram bastante", "Os alunos estudarem bastante", "Os alunos estudava bastante"],
+    "resposta": "Os alunos estudaram bastante",
+    "comentario": "O verbo deve concordar com o sujeito: 'os alunos' é plural, então o verbo também deve estar no plural."
   },
   {
     "disciplina": "Informática",
-    "questao": "Qual é a função de um firewall?",
-    "alternativas": ["Bloquear ataques de rede", "Armazenar arquivos", "Formatar HD", "Gerenciar senhas"],
-    "resposta": "Bloquear ataques de rede",
-    "comentario": "Firewall protege a rede de acessos não autorizados."
+    "questao": "Qual sistema operacional é de código aberto?",
+    "alternativas": ["Linux", "Windows", "iOS", "MacOS"],
+    "resposta": "Linux",
+    "comentario": "Linux é um sistema operacional de código aberto e gratuito, utilizado em servidores e desktops."
   },
   {
     "disciplina": "Raciocínio Lógico",
-    "questao": "Se todos os A são B e todos os B são C, então:",
-    "alternativas": ["Todos os A são C", "Todos os C são A", "Nenhum A é C", "Todos os B são A"],
-    "resposta": "Todos os A são C",
-    "comentario": "É a transitividade da lógica: A → B → C, então A → C."
+    "questao": "Se todos os gatos são mamíferos e Félix é um gato, então Félix é:",
+    "alternativas": ["Mamífero", "Reptil", "Ave", "Peixe"],
+    "resposta": "Mamífero",
+    "comentario": "Pelo silogismo: todos os gatos são mamíferos → Félix é gato → Félix é mamífero."
+  },
+  {
+    "disciplina": "Estatuto da Criança e do Adolescente",
+    "questao": "O ECA garante prioridade absoluta a:",
+    "alternativas": ["Crianças e adolescentes", "Idosos", "Trabalhadores", "Pessoas com deficiência"],
+    "resposta": "Crianças e adolescentes",
+    "comentario": "O Estatuto da Criança e do Adolescente assegura prioridade absoluta em direitos, proteção e políticas públicas."
   },
   {
     "disciplina": "Código de Trânsito Brasileiro",
-    "questao": "Qual é a penalidade para dirigir sem habilitação?",
-    "alternativas": ["Multa e apreensão do veículo", "Advertência", "Apenas multa", "Nada"],
-    "resposta": "Multa e apreensão do veículo",
-    "comentario": "Dirigir sem CNH é infração gravíssima: multa + apreensão do veículo."
+    "questao": "Qual é a penalidade para dirigir alcoolizado?",
+    "alternativas": ["Multa e suspensão da habilitação", "Advertência", "Apenas multa", "Nenhuma"],
+    "resposta": "Multa e suspensão da habilitação",
+    "comentario": "O CTB prevê multa, suspensão do direito de dirigir e possível detenção para condutores alcoolizados."
+  },
+  {
+    "disciplina": "Noções de Investigação Policial",
+    "questao": "O inquérito policial é:",
+    "alternativas": ["Procedimento investigativo", "Sentença judicial", "Ação penal", "Pena privativa de liberdade"],
+    "resposta": "Procedimento investigativo",
+    "comentario": "O inquérito policial é o procedimento preliminar destinado à coleta de provas e apuração de crimes."
+  },
+  {
+    "disciplina": "Juizados Especiais Criminais",
+    "questao": "Os Juizados Especiais Criminais atendem infrações de menor potencial ofensivo de até:",
+    "alternativas": ["2 anos de pena", "5 anos de pena", "10 anos de pena", "6 meses de pena"],
+    "resposta": "2 anos de pena",
+    "comentario": "Segundo a lei, infrações com pena máxima de até 2 anos são processadas nos Juizados Especiais Criminais."
+  },
+  {
+    "disciplina": "Estatuto do Desarmamento",
+    "questao": "Quem deseja possuir arma de fogo legalmente deve obter:",
+    "alternativas": ["Registro na Polícia Federal", "Autorização municipal", "Licença estadual de caça", "Nada, é livre"],
+    "resposta": "Registro na Polícia Federal",
+    "comentario": "O Estatuto do Desarmamento exige registro e autorização da Polícia Federal para porte ou posse de arma."
+  },
+  {
+    "disciplina": "Ética no Serviço Público",
+    "questao": "O servidor público deve atuar sempre com:",
+    "alternativas": ["Impessoalidade", "Favoritismo", "Omissão", "Interesse privado"],
+    "resposta": "Impessoalidade",
+    "comentario": "A ética exige que o servidor atue com imparcialidade, visando o interesse público."
+  },
+  {
+    "disciplina": "Medicina Legal",
+    "questao": "O exame de necropsia tem como objetivo:",
+    "alternativas": ["Determinar causa da morte", "Tratar doenças", "Emitir receita médica", "Registrar nascimento"],
+    "resposta": "Determinar causa da morte",
+    "comentario": "A necropsia ou autópsia é realizada para determinar causa e circunstâncias da morte."
+  },
+  {
+    "disciplina": "Noções de Contabilidade",
+    "questao": "O que representa o ativo em contabilidade?",
+    "alternativas": ["Bens e direitos da empresa", "Dívidas da empresa", "Lucro líquido", "Receita bruta"],
+    "resposta": "Bens e direitos da empresa",
+    "comentario": "O ativo representa tudo que a empresa possui e tem direito a receber."
+  },
+  {
+    "disciplina": "Direito Penal",
+    "questao": "O homicídio privilegiado ocorre quando:",
+    "alternativas": ["Há motivo de relevante valor social ou moral", "Há dolo específico", "Não há vítima", "Crime culposo"],
+    "resposta": "Há motivo de relevante valor social ou moral",
+    "comentario": "O homicídio privilegiado tem redução de pena quando o agente age sob relevante valor social ou moral."
+  },
+  {
+    "disciplina": "Direito Processual Penal",
+    "questao": "O princípio do contraditório garante:",
+    "alternativas": ["Direito de se manifestar e apresentar provas", "Sigilo absoluto do processo", "Pena automática", "Intervenção do MP"],
+    "resposta": "Direito de se manifestar e apresentar provas",
+    "comentario": "O contraditório assegura que todas as partes possam se manifestar e produzir provas antes da decisão."
+  },
+  {
+    "disciplina": "Legislação Especial (PC/BA)",
+    "questao": "A Polícia Civil da Bahia tem como função principal:",
+    "alternativas": ["Investigar crimes", "Policiar ruas", "Administrar presídios", "Controlar tráfego"],
+    "resposta": "Investigar crimes",
+    "comentario": "O foco da Polícia Civil é a investigação criminal, coletando provas e esclarecendo delitos."
+  },
+  {
+    "disciplina": "Constituição Federal",
+    "questao": "Qual é o princípio da separação dos poderes?",
+    "alternativas": ["Legislativo, Executivo e Judiciário", "Federal, Estadual e Municipal", "Direitos e Deveres", "Legalidade"],
+    "resposta": "Legislativo, Executivo e Judiciário",
+    "comentario": "A separação dos poderes visa impedir a concentração de funções em um único órgão, garantindo equilíbrio entre Legislativo, Executivo e Judiciário."
+  },
+  {
+    "disciplina": "Direitos Humanos",
+    "questao": "Qual é o órgão internacional que supervisiona os direitos humanos?",
+    "alternativas": ["ONU", "FIFA", "OMS", "OMC"],
+    "resposta": "ONU",
+    "comentario": "A Organização das Nações Unidas (ONU) possui órgãos que monitoram e promovem os direitos humanos no mundo."
+  },
+  {
+    "disciplina": "Língua Portuguesa",
+    "questao": "Assinale a frase com pontuação correta:",
+    "alternativas": ["Vamos comer, crianças!", "Vamos comer crianças!", "Vamos, comer crianças!", "Vamos comer crianças"],
+    "resposta": "Vamos comer, crianças!",
+    "comentario": "A vírgula evita ambiguidade e indica a separação do vocativo 'crianças'."
+  },
+  {
+    "disciplina": "Informática",
+    "questao": "O que é um navegador de internet?",
+    "alternativas": ["Programa para acessar sites", "Software de edição de imagens", "Banco de dados", "Processador de texto"],
+    "resposta": "Programa para acessar sites",
+    "comentario": "Navegadores como Chrome, Firefox e Edge permitem que usuários acessem conteúdos na web."
+  },
+  {
+    "disciplina": "Raciocínio Lógico",
+    "questao": "Se A implica B, e B é falso, então A é:",
+    "alternativas": ["Falso", "Verdadeiro", "Indeterminado", "Verdadeiro ou falso"],
+    "resposta": "Falso",
+    "comentario": "No condicional lógico, se A → B e B é falso, A também deve ser falso para a proposição ser verdadeira."
+  },
+  {
+    "disciplina": "Estatuto da Criança e do Adolescente",
+    "questao": "O que caracteriza criança segundo o ECA?",
+    "alternativas": ["Pessoa até 12 anos incompletos", "Pessoa até 18 anos", "Pessoa até 14 anos", "Pessoa até 16 anos"],
+    "resposta": "Pessoa até 12 anos incompletos",
+    "comentario": "O ECA define criança como pessoa até 12 anos incompletos e adolescente dos 12 aos 18 anos."
+  },
+  {
+    "disciplina": "Código de Trânsito Brasileiro",
+    "questao": "O que significa a placa com fundo azul e letra branca?",
+    "alternativas": ["Veículo de transporte coletivo", "Veículo oficial", "Veículo particular", "Veículo em emergência"],
+    "resposta": "Veículo de transporte coletivo",
+    "comentario": "Placas com fundo azul e letras brancas identificam veículos de transporte coletivo."
+  },
+  {
+    "disciplina": "Noções de Investigação Policial",
+    "questao": "Quem preside o inquérito policial?",
+    "alternativas": ["Delegado de Polícia", "Juiz", "Promotor de Justiça", "Advogado"],
+    "resposta": "Delegado de Polícia",
+    "comentario": "O delegado é responsável por conduzir a investigação e coletar provas no inquérito policial."
+  },
+  {
+    "disciplina": "Juizados Especiais Criminais",
+    "questao": "Qual é o objetivo dos Juizados Especiais Criminais?",
+    "alternativas": ["Processar infrações de menor potencial ofensivo", "Julgar crimes graves", "Administrar penitenciárias", "Fiscalizar trânsito"],
+    "resposta": "Processar infrações de menor potencial ofensivo",
+    "comentario": "Os Juizados Especiais Criminais simplificam o processo penal para infrações de até 2 anos de pena."
+  },
+  {
+    "disciplina": "Estatuto do Desarmamento",
+    "questao": "Qual idade mínima para registrar arma de fogo no Brasil?",
+    "alternativas": ["25 anos", "18 anos", "21 anos", "30 anos"],
+    "resposta": "25 anos",
+    "comentario": "O Estatuto do Desarmamento exige idade mínima de 25 anos para registro e porte de armas."
+  },
+  {
+    "disciplina": "Ética no Serviço Público",
+    "questao": "O servidor público deve evitar:",
+    "alternativas": ["Conflito de interesses", "Transparência", "Eficiência", "Legalidade"],
+    "resposta": "Conflito de interesses",
+    "comentario": "Ética exige que o servidor público atue com imparcialidade e evite situações que favoreçam interesses pessoais."
+  },
+  {
+    "disciplina": "Medicina Legal",
+    "questao": "Qual exame é usado para identificar um corpo?",
+    "alternativas": ["Exame de DNA", "Eletrocardiograma", "Ressonância magnética", "Teste de glicemia"],
+    "resposta": "Exame de DNA",
+    "comentario": "A análise genética é utilizada para identificação segura de cadáveres."
+  },
+  {
+    "disciplina": "Noções de Contabilidade",
+    "questao": "O que representa o passivo em contabilidade?",
+    "alternativas": ["Dívidas e obrigações da empresa", "Bens da empresa", "Lucro líquido", "Receita bruta"],
+    "resposta": "Dívidas e obrigações da empresa",
+    "comentario": "O passivo reúne as dívidas e compromissos que a empresa deve pagar."
+  },
+  {
+    "disciplina": "Direito Penal",
+    "questao": "O que é crime culposo?",
+    "alternativas": ["Quando não há intenção de cometer o crime", "Quando há dolo direto", "Crime sem vítima", "Crime planejado"],
+    "resposta": "Quando não há intenção de cometer o crime",
+    "comentario": "O crime culposo ocorre por imprudência, negligência ou imperícia, sem intenção de causar o resultado."
+  },
+  {
+    "disciplina": "Direito Processual Penal",
+    "questao": "O princípio da ampla defesa garante:",
+    "alternativas": ["Direito de contestar acusações", "Sigilo do processo", "Pena automática", "Detenção imediata"],
+    "resposta": "Direito de contestar acusações",
+    "comentario": "A ampla defesa permite que o acusado apresente provas, testemunhas e argumente contra a acusação."
+  },
+  {
+    "disciplina": "Legislação Especial (PC/BA)",
+    "questao": "Quem tem competência para investigar crimes na Bahia?",
+    "alternativas": ["Polícia Civil", "Polícia Militar", "Exército", "Guarda Municipal"],
+    "resposta": "Polícia Civil",
+    "comentario": "A investigação criminal é função da Polícia Civil, enquanto a PM atua em policiamento ostensivo."
+  },
+  {
+    "disciplina": "Constituição Federal",
+    "questao": "O direito à vida está previsto em qual artigo?",
+    "alternativas": ["Art. 5º", "Art. 7º", "Art. 1º", "Art. 3º"],
+    "resposta": "Art. 5º",
+    "comentario": "O artigo 5º da CF assegura o direito à vida como direito fundamental."
+  },
+  {
+    "disciplina": "Direitos Humanos",
+    "questao": "O direito à liberdade de expressão é considerado:",
+    "alternativas": ["Direito humano fundamental", "Direito penal", "Norma infraconstitucional", "Regra administrativa"],
+    "resposta": "Direito humano fundamental",
+    "comentario": "A liberdade de expressão é um dos direitos humanos universais garantidos internacionalmente."
+  },
+  {
+    "disciplina": "Língua Portuguesa",
+    "questao": "Qual alternativa apresenta um advérbio de tempo?",
+    "alternativas": ["Ontem", "Casa", "Bonito", "Rápido"],
+    "resposta": "Ontem",
+    "comentario": "Advérbios de tempo indicam quando a ação ocorre, como 'ontem', 'hoje' ou 'amanhã'."
+  },
+  {
+    "disciplina": "Informática",
+    "questao": "O que é firewall?",
+    "alternativas": ["Sistema de proteção de rede", "Editor de texto", "Banco de dados", "Placa de vídeo"],
+    "resposta": "Sistema de proteção de rede",
+    "comentario": "Firewall é uma barreira que controla o tráfego de dados entre redes e protege contra invasões."
   }
 ]
