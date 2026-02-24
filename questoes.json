@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "disciplina": "Direito Penal",
+    "questao": "Qual é o princípio fundamental do Direito Penal que impede que ninguém seja punido sem lei prévia?",
+    "alternativas": ["Legalidade", "Impessoalidade", "Moralidade", "Publicidade"],
+    "resposta": "Legalidade",
+    "comentario": "O princípio da legalidade está previsto no art. 5º, XXXIX, da Constituição Federal, garantindo que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.",
+    "banca": "FCC",
+    "ano": 2026
+  },
+  {
+    "id": 2,
+    "disciplina": "Língua Portuguesa",
+    "questao": "Assinale a alternativa que apresenta corretamente o plural da palavra 'cidadão'.",
+    "alternativas": ["Cidadãos", "Cidadãoses", "Cidadãoses", "Cidadãons"],
+    "resposta": "Cidadãos",
+    "comentario": "O plural de 'cidadão' é 'cidadãos', seguindo a regra de palavras terminadas em -ão que formam o plural em -ãos, -ões ou -ães, dependendo do caso.",
+    "banca": "FCC",
+    "ano": 2026
+  },
+  {
+    "id": 3,
+    "disciplina": "Informática",
+    "questao": "Em qual camada do modelo OSI ocorre a segmentação de dados?",
+    "alternativas": ["Transporte", "Aplicação", "Rede", "Enlace"],
+    "resposta": "Transporte",
+    "comentario": "A camada de transporte (camada 4) do modelo OSI é responsável pela segmentação de dados, garantindo a entrega confiável entre sistemas finais.",
+    "banca": "FCC",
+    "ano": 2026
+  },
+  {
+    "id": 4,
+    "disciplina": "Estatuto da Criança e do Adolescente",
+    "questao": "Segundo o ECA, qual é a prioridade absoluta de crianças e adolescentes?",
+    "alternativas": ["Proteção integral", "Educação básica", "Direito ao lazer", "Saúde preventiva"],
+    "resposta": "Proteção integral",
+    "comentario": "O ECA prevê a proteção integral como prioridade absoluta, garantindo direitos sociais, civis e políticos, conforme art. 4º e 227 da Constituição Federal.",
+    "banca": "FCC",
+    "ano": 2026
+  },
+  {
+    "id": 5,
+    "disciplina": "Noções de Contabilidade",
+    "questao": "Qual demonstração contábil apresenta a situação financeira de uma empresa em um determinado momento?",
+    "alternativas": ["Balanço Patrimonial", "Demonstração de Resultados", "Fluxo de Caixa", "DRE Ajustada"],
+    "resposta": "Balanço Patrimonial",
+    "comentario": "O Balanço Patrimonial mostra ativos, passivos e patrimônio líquido em uma data específica, permitindo análise da situação financeira da empresa.",
+    "banca": "FCC",
+    "ano": 2026
+  }
+]
